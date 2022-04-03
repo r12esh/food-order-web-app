@@ -3,7 +3,10 @@ import OrderColumn from "./OrderColumn";
 
 const CheckOutPage = () => {
   return (
-    <OrderColumn/>
+    <div className="Checkout-Page">
+      <OrderColumn/>
+    </div>
+
   );
 };
 
