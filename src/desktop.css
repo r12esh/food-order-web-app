@@ -52,14 +52,6 @@ code {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /*min-width: 13em;*/
-  /*min-height: 13em;*/
-  /*max-width: 13em;*/
-  /*max-height: 13em;*/
-  /*min-width: min-content;*/
-  /*min-height: min-content;*/
-  /*max-width: max-content;*/
-  /*max-height: max-content;*/
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -205,7 +197,7 @@ code {
 
 
 .side-menu-list {
-  margin-top: 50%;
+  margin-top: 12ch;
   display: flex;
   flex-direction: column;
   align-items: end;
@@ -433,7 +425,7 @@ code {
   align-items: center;
   border: dashed 2px #49D893;
   width: inherit;
-  height: 49px;
+  height: 6ch;
   margin-top: 3ch;
 }
 

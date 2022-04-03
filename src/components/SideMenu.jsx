@@ -10,19 +10,19 @@ const SideMenu = () => {
       </div>
     )
   }
-  const cartButton = () => {
-    return (
-      <div className="side-menu-buttons">
-        MY CART
-      </div>
-    )
-  }
+
+  // const cartButton = () => {
+  //   return (
+  //     <div className="side-menu-buttons">
+  //       MY CART
+  //     </div>
+  //   )
+  // }
 
   const sideMenuList = () => {
     return (
       <div className="side-menu-list">
         {menuButton()}
-        {/*{cartButton()}*/}
       </div>
     )
   }

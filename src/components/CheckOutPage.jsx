@@ -1,10 +1,9 @@
 import React from 'react';
+import OrderColumn from "./OrderColumn";
 
 const CheckOutPage = () => {
   return (
-    <div>
-
-    </div>
+    <OrderColumn/>
   );
 };
 

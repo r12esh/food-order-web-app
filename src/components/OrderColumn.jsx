@@ -1,5 +1,6 @@
 import React, {useContext} from 'react';
 import {OrderContext} from "../Context/OrderContext";
+import {Link} from "react-router-dom";
 
 const OrderColumn = () => {
 
@@ -71,7 +72,7 @@ const OrderColumn = () => {
           </div>
         </div>
         <div className="order-price">
-          ₹{order.totalPrice ? order.totalPrice : order.price}
+          ₹{order.totalPrice ? order.totalPrice.toFixed(2) : order.price}
         </div>
         <div className="remove-order" onClick={() => removeOrder(order)}>
           <i className="bi-x"/>
@@ -117,10 +118,14 @@ const OrderColumn = () => {
 
   const checkOutButton = () => {
     return (
-      <div onClick={() => {
-      }} className="checkout-button">
-        Checkout
-      </div>
+      <Link
+        style={{color: "white", textDecoration: "none"}}
+        to="/checkout"
+      >
+        <div className="checkout-button">
+          Checkout
+        </div>
+      </Link>
     )
   }
 
