@@ -231,7 +231,7 @@ code {
 
 .food-menu-filter-box {
   padding: 0.5ch 2ch;
-  margin-right: 3ch;
+  margin-right: 6ch;
   border: 1px solid #efefef;
   border-radius: 7px;
   cursor: pointer;
@@ -240,6 +240,7 @@ code {
 
 .food-menu-sort-box {
   padding: 1ch 3ch;
+  margin-right: 2ch;
   display: flex;
 }
 
