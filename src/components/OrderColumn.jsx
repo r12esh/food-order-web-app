@@ -111,7 +111,7 @@ const OrderColumn = () => {
     return (
       <div className="total-checkout-price">
         <p>Total</p>
-        <p>₹{finalPrice}</p>
+        <p>₹{finalPrice.toFixed(2)}</p>
       </div>
     )
   }

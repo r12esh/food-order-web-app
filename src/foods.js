@@ -1,11 +1,11 @@
-import pic1 from "./assets/pic1.jpg";
-import pic2 from "./assets/pic2.jpg";
-import pic3 from "./assets/pic3.jpg";
-import pic4 from "./assets/pic4.jpg";
-import pic5 from "./assets/pic5.jpg";
-import pic6 from "./assets/pic6.jpg";
-import pic7 from "./assets/pic7.jpg";
-import pic8 from "./assets/pic8.jpg";
+import pic1 from "./assets/pic1.png";
+import pic2 from "./assets/pic2.png";
+import pic3 from "./assets/pic3.png";
+import pic4 from "./assets/pic4.png";
+import pic5 from "./assets/pic5.png";
+import pic6 from "./assets/pic6.png";
+import pic7 from "./assets/pic7.png";
+import pic8 from "./assets/pic8.png";
 
 export const foods = [
   {
@@ -16,6 +16,7 @@ export const foods = [
     liked: false,
     photo: pic1,
     quantity: 0,
+    backgroundColor: "#FFE9F7",
     id: 1
   },
   {
@@ -26,6 +27,7 @@ export const foods = [
     liked: false,
     photo: pic2,
     quantity: 0,
+    backgroundColor: "#FFF3EA",
     id: 2
   },
   {
@@ -36,6 +38,7 @@ export const foods = [
     liked: true,
     photo: pic3,
     quantity: 0,
+    backgroundColor: "#E8FFFE",
     id: 3
 
   },
@@ -47,6 +50,7 @@ export const foods = [
     liked: false,
     photo: pic4,
     quantity: 0,
+    backgroundColor: "#E8FFFE",
     id: 4
   },
   {
@@ -57,6 +61,7 @@ export const foods = [
     liked: false,
     photo: pic5,
     quantity: 0,
+    backgroundColor: "#F7FFEA",
     id: 5
   },
   {
@@ -67,6 +72,7 @@ export const foods = [
     liked: false,
     photo: pic6,
     quantity: 0,
+    backgroundColor: "#ECF1FF",
     id: 6
   },
   {
@@ -77,6 +83,7 @@ export const foods = [
     liked: false,
     photo: pic7,
     quantity: 0,
+    backgroundColor: "#FFE9EA",
     id: 7
   },
   {
@@ -87,6 +94,7 @@ export const foods = [
     liked: false,
     photo: pic8,
     quantity: 0,
+    backgroundColor: "#FFFDE9",
     id: 8
   },
 ]

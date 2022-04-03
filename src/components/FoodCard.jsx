@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-const FoodCard = ({itemName, weight, rating, price, photo, liked, key}) => {
+const FoodCard = ({itemName, weight, rating, price, photo, liked, key, backgroundColor}) => {
 
   const [likedBool, setLikedBool] = useState(liked)
 
@@ -42,7 +42,7 @@ const FoodCard = ({itemName, weight, rating, price, photo, liked, key}) => {
   }
 
   return (
-    <div key={key} className="card" style={{backgroundImage: `url(${photo})`}}>
+    <div key={key} className="card" style={{backgroundImage: `url(${photo})`, backgroundColor: `${backgroundColor}`}}>
       {cardHeader(rating, likedBool)}
       {cardFooter(itemName, weight, price)}
     </div>

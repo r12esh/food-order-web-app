@@ -35,7 +35,6 @@ const FoodMenu = () => {
 
 
       <div className="food-menu-grid">
-
         {
           foods.map((foodObj, index) => {
             return (

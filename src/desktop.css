@@ -54,7 +54,8 @@ code {
   justify-content: space-between;
   height: 100%;
   width: 100%;
-  background-size: cover;
+  background-size: 90px 90px;
+  background-position: center 34%;
   background-repeat: no-repeat;
   position: relative;
   border-radius: 10px;
@@ -66,7 +67,7 @@ code {
 }
 
 .card:hover {
-  box-shadow: 0px 0px 34px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 34px 0 rgba(0, 0, 0, 0.15);
   transform: scale(1.04);
 }
 
@@ -133,10 +134,12 @@ code {
   display: flex;
   justify-content: left;
   align-items: center;
+  font-size: 15px;
+  font-weight: normal;
 }
 
 .card-item-name {
-  font-size: 1.2em;
+  /*font-size: 1.2em;*/
   margin-right: 4px;
   /*padding: 4px;*/
 }
@@ -156,7 +159,7 @@ code {
 
 .price {
   font-size: 1.2em;
-  font-weight: bold;
+  font-weight: bolder;
   /*padding: 0 0 0 4px;*/
 }
 
@@ -232,6 +235,7 @@ code {
   border: 1px solid #efefef;
   border-radius: 7px;
   cursor: pointer;
+  font-weight: normal;
 }
 
 .food-menu-sort-box {
@@ -259,19 +263,20 @@ code {
   width: inherit;
   height: 100%;
   display: grid;
-  /*display: inline-grid;*/
   justify-items: center;
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  margin: 0 3ch 5ch 3ch;
-  grid-gap: 3ch 3ch;
+  margin: 0 25px 25px 25px;
+  grid-gap: 25px 1px;
 
 }
 
 .food-card-container {
-  width: 100%;
-  height: 100%;
+  /*width: 100%;*/
+  /*height: 100%;*/
+  width: 197px;
+  height: 179px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -284,8 +289,9 @@ code {
 .Order-Column {
   display: flex;
   flex-direction: column;
-  margin: 0 2ch;
+  /*margin: 0 1ch;*/
   height: 100vh;
+  width: 401px;
 }
 
 .order-column-title {
@@ -398,7 +404,7 @@ code {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 5ch;
+  width: 8ch;
   font-weight: bold;
 }
 
