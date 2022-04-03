@@ -289,7 +289,7 @@ code {
 .Order-Column {
   display: flex;
   flex-direction: column;
-  /*margin: 0 1ch;*/
+  margin: 0 25px 0 0;
   height: 100vh;
   width: 401px;
 }
