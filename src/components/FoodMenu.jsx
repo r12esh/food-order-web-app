@@ -15,10 +15,6 @@ const FoodMenu = () => {
     setOrders([...orders, {...newFoodItem, quantity: 1}])
   }
 
-  const o = () => {
-
-  }
-
   return (
     <div className="Food-Menu">
       <div className="food-menu-header">
