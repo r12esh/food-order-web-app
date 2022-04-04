@@ -175,7 +175,7 @@ code {
 
 .Side-Menu {
   background-color: #49D893;
-  height: 100vh;
+  height: 100%;
   position: relative;
 }
 
@@ -292,7 +292,7 @@ code {
   flex-direction: column;
   margin: 0 25px 0 0;
   height: 100vh;
-  width: 401px;
+  width: 100%;
 }
 
 .order-column-title {
@@ -469,3 +469,6 @@ code {
   align-items: center;
 }
 
+.hidden {
+  display: none;
+}

@@ -2,6 +2,7 @@ import React, {useContext} from 'react';
 import FoodCard from "./FoodCard";
 import {foods} from "../foods";
 import {OrderContext} from "../Context/OrderContext";
+import {Link} from "react-router-dom";
 
 const FoodMenu = () => {
 
@@ -13,6 +14,19 @@ const FoodMenu = () => {
     })
     if (isAlreadyAdded !== -1) return;
     setOrders([...orders, {...newFoodItem, quantity: 1}])
+  }
+
+  const checkOutButton = () => {
+    return (
+      <Link
+        style={{color: "white", textDecoration: "none"}}
+        to="/checkout"
+      >
+        <div className="checkout-button hidden">
+          Checkout {orders ? orders.length : ""} item(s)
+        </div>
+      </Link>
+    )
   }
 
   return (
@@ -45,6 +59,8 @@ const FoodMenu = () => {
           })
         }
       </div>
+      {checkOutButton()}
+
     </div>
 
   )
